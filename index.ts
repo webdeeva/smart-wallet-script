@@ -53,7 +53,7 @@ const main = async () => {
   console.log("Smart Account address:", await sdk.wallet.getAddress());
   console.log("Balance:", (await sdk.wallet.balance()).displayValue);
 
-  // ---- Creating Session Keys ---- (This section is optional and can be removed if you don't need session keys)
+  // ---- Creating Session Keys ---- (This section is optional and can be removed if you don't need session keys)..
 
   console.log("-------------------------");
 
