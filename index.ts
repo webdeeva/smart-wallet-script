@@ -64,7 +64,7 @@ const main = async () => {
 
   console.log("Creating Session key:", sessionKey);
 
-  await smartWallet.createSessionKey(sessionKey);
+await smartWallet.createSessionKey(sessionKey, {});
 
   console.log("Session key added successfully!");
 
