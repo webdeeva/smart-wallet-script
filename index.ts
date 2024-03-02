@@ -1,12 +1,12 @@
 import { config } from "dotenv";
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
-import { GuapcoinX } from "@thirdweb-dev/chains";
+import { Guapcoinx } from "@thirdweb-dev/chains";
 import { LocalWalletNode } from "@thirdweb-dev/wallets/evm/wallets/local-wallet-node";
 import { SmartWallet, SmartWalletConfig } from "@thirdweb-dev/wallets";
 
 config();
 
-const chain = GuapcoinX;
+const chain = Guapcoinx;
 const factoryAddress = "0x32A35267fFf9319bE3b07A75a0A6aC053d902745"; // AccountFactory
 const secretKey = process.env.THIRDWEB_SECRET_KEY as string;
 
